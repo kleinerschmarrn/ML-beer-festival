@@ -1,125 +1,127 @@
-
-.logo{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 17%;
-    margin-top: -5px;
-    margin-left: -25px;
+.logo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 17%;
+  margin-top: -5px;
+  margin-left: -25px;
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
 }
 
 .dropbtn {
-    float: right;
-    width: 130px;
-    background-color: #08462f;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+  float: right;
+  width: 130px;
+  background-color: #08462f;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
-        
-.dropdown {
-    position: fixed;
-    right:0;
-    display: inline-block;
-    top:0;
-    width:130px;
-}
-        
-.dropdown-content {
-    display: none;
-    float: right;
-    position: relative;
-    height:365px;
-    background-color: #d9d9d9;
-    text-align: center;
-    right: 0px;
-    top: 0;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-        
-.dropdown-content a {
-          color: black;
-          padding: 16px;
-          text-decoration: none;
-          text-align: center;
-          display: block;
-          margin:0px;
-}
-        
-.dropdown-content a:hover {background-color: #70b772;}
-        
-.dropdown:hover .dropdown-content {display: block;}
-        
-.dropdown:hover .dropbtn {background-color: #08462f;}
 
- 
-body,html {
-height: 100%;
-margin: 0;
-font-size: 16px;
-font-family: "Lato", sans-serif;
-font-weight: 400;
-line-height: 1.8em;
-color:#666;
-background-color: rgb(232, 232, 232);
+.dropdown {
+  position: fixed;
+  right: 0;
+  display: inline-block;
+  top: 0;
+  width: 130px;
+}
+
+.dropdown-content {
+  display: none;
+  float: right;
+  position: relative;
+  height: 365px;
+  background-color: #d9d9d9;
+  text-align: center;
+  right: 0px;
+  top: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 0px;
+}
+
+.dropdown-content a:hover {
+  background-color: #70b772;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #08462f;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+  background-color: rgb(232, 232, 232);
 }
 
 h2 {
-    font-family: "Amatic SC", sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-    line-height: 1.8em;
-    color: rgb(21, 68, 21);
+  font-family: "Amatic SC", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.8em;
+  color: rgb(21, 68, 21);
 }
 
 h3 {
-    font-family: "Indie Flower", sans-serif;
-    font-size: 22px;
-    font-weight: normal;
+  font-family: "Indie Flower", sans-serif;
+  font-size: 22px;
+  font-weight: normal;
 }
 
-div{
-    height:100%;
-    width: 100%;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+div {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 .grid {
-    display: grid;
-    align-content: center;
-    grid-template-columns: 50% 50%;
-    text-align: center;
-    width:600px;
-    height: auto;
-    margin-inline: auto;
-
+  display: grid;
+  align-content: center;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  width: 600px;
+  height: auto;
+  margin-inline: auto;
 }
 
 .pimg1 {
-    background-image: url('Images/Banner green.jpeg');
+  background-image: url("Images/Banner green.jpeg");
 }
 
 .pimg2 {
-    background-image: url('Images/MLBF.jpeg');
+  background-image: url("Images/MLBF.jpeg");
 }
 
 .pimg3 {
-    background-image: url('Images/Banner purple.jpeg');
+  background-image: url("Images/Banner purple.jpeg");
 }
 
-.section{
-    text-align: center;
-    padding: 100px 80px;
+.section {
+  text-align: center;
+  padding: 100px 80px;
 }
-
